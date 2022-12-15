@@ -4,6 +4,7 @@ import './index.css';
 import Dashboard from './scenes/dashboard';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
+import Team from './scenes/team';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Dashboard />,
+      },
+      {
+        path: '/team',
+        element: <Team />,
       },
     ],
   },
