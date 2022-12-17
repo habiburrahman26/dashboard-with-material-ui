@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Team from './scenes/team';
 import Contact from './scenes/contact/Contact';
+import Invoice from './scenes/invoice/Invoice';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: '/contacts',
         element: <Contact />,
+      },
+      {
+        path: '/invoices',
+        element: <Invoice />,
       },
     ],
   },
