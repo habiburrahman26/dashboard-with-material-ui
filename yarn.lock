@@ -335,19 +335,19 @@
   "resolved" "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.16.5.tgz"
   "version" "0.16.5"
 
-"@fullcalendar/core@~6.0.0":
+"@fullcalendar/core@^6.0.0", "@fullcalendar/core@~6.0.0":
   "integrity" "sha512-0lseac4/yJQhT9QjPGlqwEsZsoD0kKjuUI9KNUWMXqBPcK7Gk1pXJyP2Np7k9aqU5yLF7+pKp7fYR4YPiy++ew=="
   "resolved" "https://registry.npmjs.org/@fullcalendar/core/-/core-6.0.0.tgz"
   "version" "6.0.0"
   dependencies:
     "preact" "^10.0.5"
 
-"@fullcalendar/daygrid@~6.0.0":
+"@fullcalendar/daygrid@^6.0.0", "@fullcalendar/daygrid@~6.0.0":
   "integrity" "sha512-Lzv1saFduDR9amaC1zeHFb+iBBqGF7Gu+j5O6zTSZarCCWlrc9lgTN7sB6VAQE2XIFfz8s9EzK3UYd/goaKMpA=="
   "resolved" "https://registry.npmjs.org/@fullcalendar/daygrid/-/daygrid-6.0.0.tgz"
   "version" "6.0.0"
 
-"@fullcalendar/interaction@~6.0.0":
+"@fullcalendar/interaction@^6.0.0", "@fullcalendar/interaction@~6.0.0":
   "integrity" "sha512-fVv1b/HTh8AnPvKD/bFhlcEexVqOnhRNPlJFZtsiM4Ts4kNBIm9m53FHwGTkcV4Xi8lx3I1V1jOQE6OEm0KcQw=="
   "resolved" "https://registry.npmjs.org/@fullcalendar/interaction/-/interaction-6.0.0.tgz"
   "version" "6.0.0"
@@ -355,6 +355,11 @@
 "@fullcalendar/list@~6.0.0":
   "integrity" "sha512-twioEtFEKoZVrDxIRJvc2suxfq2DCJ7mbMshTAOk03PDbvUczdSja3fNs3FjchED4LgAxkIcGineMuhtH2EpMQ=="
   "resolved" "https://registry.npmjs.org/@fullcalendar/list/-/list-6.0.0.tgz"
+  "version" "6.0.0"
+
+"@fullcalendar/react@^6.0.0":
+  "integrity" "sha512-uxICTGtFclJigItsB4kH8xUHeV8KRKpAJpV2YFDBocN4KH/Xn+y/NnO5nl9YjRTYRSbi8YOAZtdVfvoU3nYPDA=="
+  "resolved" "https://registry.npmjs.org/@fullcalendar/react/-/react-6.0.0.tgz"
   "version" "6.0.0"
 
 "@fullcalendar/timegrid@~6.0.0":
@@ -1253,7 +1258,7 @@
   "resolved" "https://registry.npmjs.org/property-expr/-/property-expr-2.0.5.tgz"
   "version" "2.0.5"
 
-"react-dom@^16.8.0  || >=17.0.0 || >=18.0.0", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
+"react-dom@^16.7.0 || ^17 || ^18", "react-dom@^16.8.0  || >=17.0.0 || >=18.0.0", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1326,7 +1331,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.8.0  || >=17.0.0 || >=18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0", "react@^18.2.0", "react@>= 16.14.0 < 19.0.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0":
+"react@^16.7.0 || ^17 || ^18", "react@^16.8.0  || >=17.0.0 || >=18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0", "react@^18.2.0", "react@>= 16.14.0 < 19.0.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

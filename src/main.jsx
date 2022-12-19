@@ -8,6 +8,8 @@ import Team from './scenes/team';
 import Contact from './scenes/contact/Contact';
 import Invoice from './scenes/invoice/Invoice';
 import Form from './scenes/form/Form';
+import Calender from './scenes/calander/Calender';
+import Faq from './scenes/faq/Faq';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
       {
         path: '/form',
         element: <Form />,
+      },
+      {
+        path: '/calender',
+        element: <Calender />,
+      },
+      {
+        path: '/faq',
+        element: <Faq />,
       },
     ],
   },
