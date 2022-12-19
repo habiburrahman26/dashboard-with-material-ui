@@ -7,6 +7,7 @@ import App from './App';
 import Team from './scenes/team';
 import Contact from './scenes/contact/Contact';
 import Invoice from './scenes/invoice/Invoice';
+import Form from './scenes/form/Form';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/invoices',
         element: <Invoice />,
+      },
+      {
+        path: '/form',
+        element: <Form />,
       },
     ],
   },
