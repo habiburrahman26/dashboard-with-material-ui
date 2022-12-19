@@ -147,6 +147,16 @@ const Form = () => {
                 }}
               />
             </Box>
+            <Box
+              display="flex"
+              justifyContent="end"
+              mt="20px"
+              fontWeight="bold"
+            >
+              <Button variant="contained" color="secondary" type="submit">
+                Create New User
+              </Button>
+            </Box>
           </form>
         )}
       </Formik>
